@@ -1,0 +1,11 @@
+.welcome-bar {
+  width: 80rem;
+  height: 14rem;
+  background-image: url("https://gentescl.com/wp-content/uploads/2020/09/Campa%C3%B1a-Spotify.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+  margin-left: 20rem;
+  margin-right: 30rem;
+}
