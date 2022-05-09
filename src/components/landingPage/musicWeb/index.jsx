@@ -40,6 +40,18 @@ export default function ArtistHolder() {
         "https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2019/06/Lady-Gaga-Born-This-Way.png?fit=985%2C985&ssl=1",
       play: [],
     },
+    {
+      title: "Born This Way",
+      image:
+        "https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2019/06/Lady-Gaga-Born-This-Way.png?fit=985%2C985&ssl=1",
+      play: [],
+    },
+    {
+      title: "Born This Way",
+      image:
+        "https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2019/06/Lady-Gaga-Born-This-Way.png?fit=985%2C985&ssl=1",
+      play: [],
+    },
   ];
   function createAvatar(arr) {
     const new_arr = [];

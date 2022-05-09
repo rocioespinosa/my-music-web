@@ -6,14 +6,17 @@ import LandingPage from "./components/landingPage";
 function App() {
   return (
     <div>
-      <div className="side-bar-container">
-        <SideBar />;
-      </div>
-      <div>
-        <LandingPage />;
-      </div>
-      <div className="player-container">
-        {" "}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          backgroundColor: "pink",
+        }}
+      >
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <SideBar />;
+          <LandingPage />;
+        </div>
         <MusicPlayer />
       </div>
     </div>

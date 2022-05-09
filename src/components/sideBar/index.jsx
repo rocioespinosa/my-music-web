@@ -3,7 +3,7 @@ import "./styles.css";
 
 export default function SideBar() {
   return (
-    <div>
+    <div className="side-bar-container">
       <nav class="menu" tabindex="0">
         <div class="smartphone-menu-trigger"></div>
 

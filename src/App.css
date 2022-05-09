@@ -1,4 +1,6 @@
 body {
   background-color: rgba(0, 0, 0, 0.912);
   overflow-y: scroll;
+  margin: 0;
+  padding: 0;
 }

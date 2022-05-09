@@ -5,7 +5,7 @@ console.clear();
 
 export default function MusicPlayer() {
   return (
-    <div>
+    <div className="player-container">
       <div class="container-audio">
         <audio className="control" controls loop autoplay>
           <source
