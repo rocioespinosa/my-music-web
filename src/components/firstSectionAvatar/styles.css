@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.avatar {
+  width: 25rem;
+  height: 6rem;
+  background-color: rgb(35, 33, 33);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.title {
+  margin-left: 6rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.image {
+  width: 6rem;
+  height: 6rem;
+}

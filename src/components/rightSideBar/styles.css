@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.right-bar-container {
+  background: black;
+  height: 100vh;
+  width: 240px;
+}
+
+.settings {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  border-radius: 50px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: right;
+  height: 4em;
+  width: 9.5em;
+  font-size: 12px;
+  font-weight: 600;
+}
+.settings:hover {
+  color: black;
+}

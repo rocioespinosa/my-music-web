@@ -1,24 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-.avatar {
-  width: 14rem;
-  height: 8rem;
+.second-section-avatar {
+  width: 13rem;
+  height: 13rem;
   background-color: rgb(35, 33, 33);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
-.title {
-  margin-left: 6rem;
+.second-section-title {
+  margin-left: 4rem;
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   color: white;
 }
 
-.image {
-  width: 5rem;
-  height: 5rem;
+.second-section-image {
+  width: 12rem;
+  height: 10rem;
+  border-radius: 25px;
 }

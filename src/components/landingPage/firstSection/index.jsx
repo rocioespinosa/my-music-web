@@ -1,21 +1,9 @@
 import React from "react";
-import ArtistAvatar from "../../artistAvatar";
+import ArtistAvatar from "../../firstSectionAvatar";
 import "./styles.css";
 
 export default function ArtistHolder() {
   const artistInfo = [
-    {
-      title: "Born This Way",
-      image:
-        "https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2019/06/Lady-Gaga-Born-This-Way.png?fit=985%2C985&ssl=1",
-      play: [],
-    },
-    {
-      title: "Born This Way",
-      image:
-        "https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2019/06/Lady-Gaga-Born-This-Way.png?fit=985%2C985&ssl=1",
-      play: [],
-    },
     {
       title: "Born This Way",
       image:
