@@ -14,9 +14,7 @@ body {
   background-color: transparent;
   border-radius: 50px;
   border-color: white;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: right;
+  align-self: flex-end;
   height: 4em;
   width: 9.5em;
   font-size: 14px;
