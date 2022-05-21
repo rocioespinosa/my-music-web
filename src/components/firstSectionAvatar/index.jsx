@@ -19,9 +19,9 @@ export default function ArtistAvatar({ title, image, play }) {
       onMouseLeave={onMouseLeave}
     >
       <img className="image" src={image} alt="artist" />
-      <div className="title-button-container">
-        <div className="title"> {title} </div>
-        {isHovering && <div className="play">Playing button</div>}
+      <div className="title-button-play-container">
+        <div className="title-first-section"> {title} </div>
+        {isHovering && <div className="play"></div>}
       </div>
     </div>
   );

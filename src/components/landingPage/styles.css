@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 body {
-  overflow-x: scroll;
 }
 
 .landing-page-container {
@@ -9,18 +10,86 @@ body {
   height: 100%;
 }
 
+.landing-page-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2.5%;
+}
+
 .upgrade-button {
   color: white;
   background-color: transparent;
   border-radius: 50px;
   border-color: white;
-  align-self: flex-end;
-  height: 4em;
-  width: 9.5em;
-  font-size: 14px;
-  font-weight: 600;
+  height: 2.5em;
+  width: 7em;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
+
 .upgrade-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+}
+
+.dropbtn {
+  background-color: rgb(47, 46, 46);
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50px;
+  height: 2.7em;
+  width: 12em;
+  color: white;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown {
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
   background-color: black;
   color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: black;
 }
