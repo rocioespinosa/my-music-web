@@ -38,13 +38,8 @@ export default function SecondSection() {
   function createAvatar(arr) {
     const new_arr = [];
 
-    for (let i = 0; i < arr.length; i++) {
-      new_arr.push(
-        <SecondSectionAvatar
-          className="avatarHolder-avatar"
-          {...artistInfo[i]}
-        />
-      );
+    for (let i = 0; i < 18; i++) {
+      new_arr.push(<SecondSectionAvatar {...artistInfo[i]} />);
     }
 
     return new_arr;
