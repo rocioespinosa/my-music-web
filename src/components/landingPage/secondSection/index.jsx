@@ -35,7 +35,7 @@ export default function SecondSection() {
       play: [],
     },
   ];
-  function createAvatar(arr) {
+  function createSection(arr) {
     const new_arr = [];
 
     for (let i = 0; i < 18; i++) {
@@ -56,7 +56,7 @@ export default function SecondSection() {
         Inspired by your recent activity
       </span>
       <div className="second-section-avatar-container">
-        {createAvatar(artistInfo)}
+        {createSection(artistInfo)}
       </div>
     </div>
   );

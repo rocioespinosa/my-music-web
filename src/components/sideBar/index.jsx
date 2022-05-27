@@ -8,20 +8,20 @@ export default function SideBar() {
         <div class="smartphone-menu-trigger"></div>
 
         <ul>
-          <li class="icon-users">
-            <span>Profile</span>
-          </li>
           <li class="icon-home">
             <span>Home</span>
           </li>
-          <li class="icon-customers">
+          <li class="icon-search">
             <span>Search</span>
           </li>
-          <li class="icon-users">
-            <span>Playlists</span>
+          <li class="icon-library">
+            <span>Your Library</span>
           </li>
-          <li class="icon-settings">
-            <span>Settings</span>
+          <li class="icon-playlist">
+            <span>Create Playlist</span>
+          </li>
+          <li class="icon-liked-songs">
+            <span>Liked Songs</span>
           </li>
         </ul>
       </nav>

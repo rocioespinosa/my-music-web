@@ -25,17 +25,20 @@
   transition: all 0.15s linear;
   cursor: pointer;
 }
-.menu ul li.icon-dashboard {
-  background-image: url("https://image.shutterstock.com/image-vector/home-icon-vector-illustration-logo-600w-1354822697.jpg");
+.menu ul li.icon-home {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/2626/premium/2626923.png?token=exp=1653516625~hmac=0a3585e697e9e145e0acf98ac40ddb9b");
 }
-.menu ul li.icon-customers {
-  background-image: url("http://www.entypo.com/images//briefcase.svg");
+.menu ul li.icon-search {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/954/premium/954591.png?token=exp=1653516734~hmac=01d794a7b27a18b3f0037897e587f551");
 }
-.menu ul li.icon-users {
-  background-image: url("http://www.entypo.com/images//users.svg");
+.menu ul li.icon-library {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/7611/7611671.png");
 }
-.menu ul li.icon-settings {
-  background-image: url("http://www.entypo.com/images//tools.svg");
+.menu ul li.icon-playlist {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/4043/premium/4043804.png?token=exp=1653516863~hmac=7d27ce895198e3b2cf6a64e39a512675");
+}
+.menu ul li.icon-liked-songs {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/2589/premium/2589175.png?token=exp=1653517282~hmac=e2b7c4bf85cca8e46f44b0c2150bd938");
 }
 .menu ul li:hover {
   background-color: rgba(0, 0, 0, 0.1);
