@@ -1,9 +1,16 @@
 import "./styles.css";
 import React from "react";
 import SecondSectionAvatar from "../../secondSectionAvatar";
+import SecondSectionLine from "../../secondSectionLine";
 
 export default function SecondSection() {
-  const artistInfo = [
+  const artistsInfo = [
+    {
+      title: "ARTPOP",
+      image:
+        "https://www.rockandpop.cl/wp-content/uploads/2021/04/art-400x360.jpg",
+      play: [],
+    },
     {
       title: "ARTPOP",
       image:
@@ -39,7 +46,13 @@ export default function SecondSection() {
     const new_arr = [];
 
     for (let i = 0; i < 18; i++) {
-      new_arr.push(<SecondSectionAvatar {...artistInfo[i]} />);
+      new_arr.push(
+        <SecondSectionLine
+          artistsInfos={arr}
+          title={`Recommended for today${i}`}
+          subtitle={`Inspired by your recent activity${i}`}
+        />
+      );
     }
 
     return new_arr;
@@ -47,16 +60,10 @@ export default function SecondSection() {
 
   return (
     <div>
-      <div className="second-section-section-title-greeting">
-        {" "}
-        Recommended for today{" "}
-      </div>
-      <span className="second-section-description">
-        {" "}
-        Inspired by your recent activity
-      </span>
+      <div className="second-section-section-title-greeting"></div>
+      <span className="second-section-description"></span>
       <div className="second-section-avatar-container">
-        {createSection(artistInfo)}
+        {createSection(artistsInfo)}
       </div>
     </div>
   );
